@@ -42,7 +42,7 @@ function App() {
       <li
         key={index}
         className="todo-item"
-        onChange={() => toggleCompleted(index)}
+        onClick={() => toggleCompleted(index)}
       >
         <button
           onClick={() => remove(index)}
